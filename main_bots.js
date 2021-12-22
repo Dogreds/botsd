@@ -26,6 +26,7 @@ _maps.add("нансена")
 _maps.add("маркова")
 _maps.add("городская")
 _maps.add("семашко")
+_maps.add("кржижановского")
 
 
 _botstart.setMyCommands([{command: "/start", description: "приветствие"}, {command: "/info", description: "информация о боте"},
@@ -45,7 +46,7 @@ _botstart.on("message",    async msg => {
 
     if (_input === "/start"){
 
-        return   _botstart.sendMessage(chatid, "Здравствуйте " + _names  +   " это телеграм бот для согласования земленых работ  РЦС -1," +  " укажите улицу где будут проводится работы")
+        return   _botstart.sendMessage(chatid, "Здравствуйте " + _names  +   " это телеграм бот для согласования земляных работ  РЦС -1," +  " укажите улицу где будут проводится работы")
 
     }
 
